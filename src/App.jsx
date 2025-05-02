@@ -1,10 +1,10 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import Login from "./pages/Login";
 import CoursesList from "./pages/CoursesList";
 import AddEditCourse from "./pages/AddEditCourse";
 import CourseDetails from "./pages/CourseDetails";
 import { isLoggedIn } from "./utils/Auth";
+import Login from './Pages/Login';
 const App = () => {
   return (
     <Routes>
